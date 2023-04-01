@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+button,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+body {
+  font-family: "SpoqaHanSansNeo-Regular";
+}
+ul {
+  list-style: none;
+}
+button {
+  border: initial;
+  cursor: pointer;
+}
+input {
+  border: initial;
+}
+.container {
+  background: #f2e9d8;
+}
+header {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* box-sizing: border-box; */
+  padding: 31px 10px;
+  display: flex;
+}
+nav {
+  margin-left: auto;
+}
+.menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.btn {
+  box-sizing: border-box;
+  padding: 15px 30px;
+  color: white;
+  background: #d97652;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.banner {
+  max-width: 1280px;
+  padding: 10px;
+  margin: 0 auto;
+  /* box-sizing: border-box; */
+  background: url(./img/고양이\ 1.svg) no-repeat bottom right / 30%;
+}
+.banner-text {
+  width: 737px;
+  padding: 200px 0 262px 0;
+}
+.banner-text h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+.banner-text p {
+  margin: 40px auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.btn-down {
+  margin-top: 40px;
+  margin: 0;
+}
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.section1 {
+  margin: 80px auto 120px auto;
+  display: flex;
+  gap: 110px;
+  align-items: center;
+}
+.section1 .bed-hodu {
+  filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+}
+.section1-content h2 {
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+.section1-content p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.section2-title {
+  text-align: center;
+  color: #d97652;
+  font-size: 48px;
+  line-height: 60px;
+}
+.section2-content1 {
+  margin: 40px auto 88px auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+}
+.text-middle strong {
+  color: #d97652;
+}
+.img-hodu {
+  display: flex;
+  gap: 72px;
+}
+.img-hodu img {
+  filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+}
+.section2-container {
+  display: flex;
+  gap: 52px;
+  margin-top: 90px;
+  justify-content: center;
+}
+article {
+  display: flex;
+  gap: 143px;
+  margin-top: 90px;
+  background: #263140;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 50px 58px;
+}
+.article-content h2 {
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 18px;
+}
+.article-content p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #f2e9d8;
+}
+.email-box {
+  display: flex;
+  width: 530px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 60px;
+  padding: 5px;
+}
+.email-box input {
+  padding: 20px 0 20px 68px;
+}
+.email-box .btn {
+  margin-left: 129px;
+}
